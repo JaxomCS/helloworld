@@ -4,7 +4,7 @@
 #
 version: 2
 jobs:
-  build:
+  helloworld:
     docker:
       # specify the version you desire here
       - image: circleci/php:7.1-node-browsers
@@ -42,4 +42,4 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
+      - helloworld
