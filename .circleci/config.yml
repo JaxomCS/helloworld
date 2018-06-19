@@ -16,10 +16,6 @@ jobs:
 
     working_directory: ~/repo
 
-    environment:
-	USERNAME: $CSUsername
-	APIKEY: $CSAPIKey
-
     steps:
       - checkout
 
